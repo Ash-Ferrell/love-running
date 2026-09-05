@@ -85,3 +85,14 @@ main{
     display: flex; 
     justify-content: space-evenly; 
     list-style-type: none;}
+
+#social-networks a {
+    color: #3a3a3a;
+}
+
+#social-networks i {
+    font-size: 100%;
+    padding: 5%;
+    color: inherit;
+
+}
