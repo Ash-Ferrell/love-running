@@ -130,9 +130,12 @@ main{
 #reasons div { 
     margin-bottom: 20px;
 }
-#reasons p{
+
+#reasons hr {
     border-top:1px solid #3a3a3a;
-    margin: 5px 0; 
+        margin: 5px 0; 
+}
+#reasons p{
     padding: 0 20px; 
 
 }
