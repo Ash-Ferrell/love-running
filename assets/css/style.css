@@ -145,6 +145,16 @@ main{
     margin-bottom: 20px;
 }
 
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    margin: 0 auto;
+    height:90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius:50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 
 @media (min-width: 768px) {
