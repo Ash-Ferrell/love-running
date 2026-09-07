@@ -191,12 +191,28 @@ main{
 
 
 
+/* Gallery Section */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
 
 
 
 
 
+@media (min-width: 576px) {
+#photos {
 
+    column-count: 2;
+    column-gap: 0;
+}
+}
 
 @media (min-width: 768px) {
     nav { display:block;
@@ -237,6 +253,9 @@ main{
         text-align: end;
         align-self: flex-end;
     }
+    #photos {
+        column-count: 3;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -249,5 +268,6 @@ main{
     #benefits-mental {order: 1;}
     #benefits-mental > div {align-self:flex-start;}
     #benefits-physical > div {align-self:flex-end;}
+    #photos {        column-count: 4;    }
 
 }
