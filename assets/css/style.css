@@ -206,17 +206,50 @@ main{
 /* Signup Section */
 #signup-main { 
     display: flex;
+    flex-direction: column;
 }
 
 #signup {
     width: 100%;
-background: url()
+background: url("../images/signup-image.webp") no-repeat center center / cover;
+background-position: 75%;
+flex-grow: 1;
 }
 
 #signup-form {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(60,60,60,0.6);
+    color:#fafafa;
 }
+#signup-form    h1 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    }
+
+.text-input {
+    background: transparent;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    border-radius: 2px;
+    height: 25px;
+    
+    /* not sure here */
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
