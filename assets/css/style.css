@@ -244,6 +244,9 @@ flex-grow: 1;
 
 }
 
+.text-input:hover {
+    border-color: #f16c6b;
+}
 
 #radio-inputs {
     display: flex;
@@ -259,10 +262,12 @@ color: #fafafa;
 font-size:100%;
 margin-top: 20px;
 padding: 15px 32px;
-
-
 }
 
+#join-button:hover {
+    background-color:#fafafa;
+    color: #454b1b;
+}
 
 /* End of Signup Section */
 
@@ -318,6 +323,15 @@ padding: 15px 32px;
     #photos {
         column-count: 3;
     }
+
+    #signup-form {
+        margin:150px 10%;
+        max-width: 400px;
+    }
+
+    #signup {
+        background-position: center center;}
+
 }
 
 @media (min-width: 1200px) {
