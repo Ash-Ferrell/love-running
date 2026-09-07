@@ -61,7 +61,7 @@ header a{
 }
 
 .active {
-    border: bottom 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
     }
 
 nav {
@@ -223,7 +223,7 @@ flex-grow: 1;
     background: rgba(60,60,60,0.6);
     color:#fafafa;
 }
-#signup-form    h1 {
+#signup-form    h2 {
     color: #fafafa;
     margin-bottom: 20px;
     }
