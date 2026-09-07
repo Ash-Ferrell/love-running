@@ -202,7 +202,25 @@ main{
     line-height: 0;
 }
 
+/* End of Gallery Section */
+/* Signup Section */
+#signup-main { 
+    display: flex;
+}
 
+#signup {
+    width: 100%;
+background: url()
+}
+
+#signup-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* End of Signup Section */
 
 
 
